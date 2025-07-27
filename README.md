@@ -31,7 +31,6 @@ Welcome to my **Data Warehouse and Analytics Project** repository!
 - Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
 ---
----
 
 ## 🏗️🛢 Data Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
@@ -71,7 +70,6 @@ Specifications:
 - Scope: Focus on the latest dataset only; historization of data is not required.
 - Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
-----
 
 #### BI: Analytics & Reporting (Data Analysis)
 Objective

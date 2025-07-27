@@ -15,7 +15,7 @@
 
 ---
 
-**Welcome to the **Data Warehouse and Analytics Project** repository!**   
+Welcome to my **Data Warehouse and Analytics Project** repository!   
 
 ## 📖 Project Overview
 

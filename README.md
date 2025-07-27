@@ -46,7 +46,14 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 
 ---
 
-
+## 🛠️ Important Links & Tools (Free):
+- [**Datasets**](https://github.com/charlespughtech/sql-data-warehouse-project/tree/main/datasets): Access to the project dataset (csv files).
+- [**SQL Server Express**](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Lightweight server for hosting your SQL database.
+- [**SQL Server Management Studio (SSMS)**](https://learn.microsoft.com/en-us/ssms/install/install?view=sql-server-ver16): GUI for managing and interacting with databases.
+- [**Git Repository**](https://github.com): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- [**DrawIO**](https://www.drawio.com/): Design data architecture, models, flows, and diagrams.
+- [**Notion**](https://www.notion.com/): Get the Project Template from Notion
+- [**Notion Project Steps**](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269): Access to All Project Phases and Tasks.
 
 ---
 
@@ -58,7 +65,7 @@ This project is licensed under the [MIT License](https://github.com/charlespught
 
 ## 📩 Contact
 
-For any inquiries or further information, please contact:
+**For any enquiries or further information, please contact**:
 
 **Charles Pugh** - Google-certified Data Analyst  
 **Website:** [https://charlespughtech.github.io/](https://charlespughtech.github.io/)  

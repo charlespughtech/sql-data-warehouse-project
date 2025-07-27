@@ -59,7 +59,7 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 ---
 
 ## 🚀 Project Requirements
-#### - Building the Data Warehouse (Data Engineering)
+### Building the Data Warehouse (Data Engineering)
 ##### Objective
  Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
@@ -71,7 +71,7 @@ Specifications:
 - Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 
-#### - BI: Analytics & Reporting (Data Analysis)
+### BI: Analytics & Reporting (Data Analysis)
 ##### Objective
 Develop SQL-based analytics to deliver detailed insights into:
 - Customer Behavior

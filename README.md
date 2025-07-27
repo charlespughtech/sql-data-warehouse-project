@@ -45,7 +45,6 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 - 🥇 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
----
 
 ## 🛠️ Important Links & Tools (Free):
 - [**Datasets**](https://github.com/charlespughtech/sql-data-warehouse-project/tree/main/datasets): Access to the project dataset (csv files).

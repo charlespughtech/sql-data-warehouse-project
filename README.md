@@ -117,7 +117,7 @@ This project is licensed under the [MIT License](https://github.com/charlespught
 
 ---
 
-Credit to [DataWithBaraa](https://github.com/DataWithBaraa) for helping me to create this project and enabling me to develop my skillset.
+🤝🏻 Credit to [DataWithBaraa](https://github.com/DataWithBaraa) for helping me to create this project and enabling me to develop my skillset.
 
 ---
 

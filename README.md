@@ -29,7 +29,7 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 
 <img width="1174" height="872" alt="data_architecture" src="https://github.com/user-attachments/assets/9b239d78-dc16-4c89-85d2-9986458d8b8a" />  
 
-- 📄𝄜 Sources (.csv) → 🛢🥉 Bronze Layer → 🛢🥈 Silver Layer → 🛢🥇 Gold Layer
+📄 Sources (.csv) → 🥉 Bronze Layer → 🥈 Silver Layer → 🥇 Gold Layer → Consumption (BI & Reporting 📊📈, Ad-Hoc Querying 🔍︎, Machine Learning ✨֎🇦🇮)
 1. 🛢🥉 Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.     
 2. 🛢🥈 Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.     
 3. 🛢🥇 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.  

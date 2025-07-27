@@ -2,11 +2,9 @@
 #### Building a modern data warehouse with SQL Server, including ETL processes, data modelling and analytics.
 
 ---
----
 
 #### Project Repository URL: [charlespughtech/sql-data-warehouse-project](https://github.com/charlespughtech/sql-data-warehouse-project) 
 
----
 ---
 
 **Author:** Charles Pugh - Google-certified Data Analyst   
@@ -15,7 +13,6 @@
 **LinkedIn:** [https://www.linkedin.com/in/charlespughtech/](https://www.linkedin.com/in/charlespughtech/)  
 **Date:** 2025-07-26
 
----
 ---
 
 Welcome to my **Data Warehouse and Analytics Project** repository!   
@@ -61,7 +58,6 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 - [**Notion Project Steps**](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269): Access to All Project Phases and Tasks.
 
 ---
----
 
 ## 🚀 Project Requirements
 #### Building the Data Warehouse (Data Engineering)
@@ -75,7 +71,7 @@ Specifications:
 - Scope: Focus on the latest dataset only; historization of data is not required.
 - Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
----
+----
 
 #### BI: Analytics & Reporting (Data Analysis)
 Objective
@@ -89,13 +85,11 @@ These insights empower stakeholders with key business metrics, enabling strategi
 For more details, refer to docs/requirements.md.
 
 ---
----
 
 ## © Licence
 
 This project is licensed under the [MIT License](https://github.com/charlespughtech/sql-data-warehouse-project/blob/main/LICENSE). You are free to use, modify, and share this project with proper attribution.
 
----
 ---
 
 ## 📩 Contact

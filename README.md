@@ -1,4 +1,4 @@
-# SQL Server Data Warehouse Project 🏭
+# 🏭 SQL Server Data Warehouse Project 
 #### Building a modern data warehouse with SQL Server, including ETL processes, data modelling and analytics.
 
 ---
@@ -36,7 +36,7 @@ Sources (.csv) → Bronze Layer → Silver Layer → Gold Layer → Consumption 
 
 ---
 
-## Contact
+## ⌯⌲📩 Contact
 
 For any inquiries or further information, please contact:
 

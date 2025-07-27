@@ -40,7 +40,7 @@ Sources (.csv) → Bronze Layer → Silver Layer → Gold Layer → Consumption 
 
 For any inquiries or further information, please contact:
 
-**Charles Pugh** - Google-certified Data Analyst 👨‍💻  
+**Charles Pugh** - Google-certified Data Analyst  
 **Website:** [https://charlespughtech.github.io/](https://charlespughtech.github.io/)  
 **Email:** [charlespughtech@gmail.com](mailto:charlespughtech@gmail.com)  
 **LinkedIn:** [https://www.linkedin.com/in/charlespughtech/](https://www.linkedin.com/in/charlespughtech/)

@@ -24,7 +24,7 @@ What is this project?:
 
 ---
 
-🏗️🛢 Data Architecture
+## 🏗️🛢 Data Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
 
 <img width="1174" height="872" alt="data_architecture" src="https://github.com/user-attachments/assets/9b239d78-dc16-4c89-85d2-9986458d8b8a" />  
@@ -35,6 +35,12 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 - 🥉 Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.     
 - 🥈 Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.     
 - 🥇 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.  
+
+---
+
+## © Licence:
+
+This project is licensed under the [MIT License](https://github.com/charlespughtech/sql-data-warehouse-project/blob/main/LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 ---
 

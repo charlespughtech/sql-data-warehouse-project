@@ -2,9 +2,11 @@
 #### Building a modern data warehouse with SQL Server, including ETL processes, data modelling and analytics.
 
 ---
+---
 
 #### Project Repository URL: [charlespughtech/sql-data-warehouse-project](https://github.com/charlespughtech/sql-data-warehouse-project) 
 
+---
 ---
 
 **Author:** Charles Pugh - Google-certified Data Analyst   
@@ -13,6 +15,7 @@
 **LinkedIn:** [https://www.linkedin.com/in/charlespughtech/](https://www.linkedin.com/in/charlespughtech/)  
 **Date:** 2025-07-26
 
+---
 ---
 
 Welcome to my **Data Warehouse and Analytics Project** repository!   
@@ -31,6 +34,7 @@ Welcome to my **Data Warehouse and Analytics Project** repository!
 - Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
 ---
+---
 
 ## 🏗️🛢 Data Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
@@ -45,6 +49,7 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 - 🥇 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
+---
 
 ## 🛠️ Important Links & Tools (Free):
 - [**Datasets**](https://github.com/charlespughtech/sql-data-warehouse-project/tree/main/datasets): Access to the project dataset (csv files).
@@ -56,11 +61,41 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 - [**Notion Project Steps**](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269): Access to All Project Phases and Tasks.
 
 ---
+---
+
+## 🚀 Project Requirements
+#### Building the Data Warehouse (Data Engineering)
+##### Objective
+ Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+Specifications:
+- Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
+- Data Quality: Cleanse and resolve data quality issues prior to analysis.
+- Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- Scope: Focus on the latest dataset only; historization of data is not required.
+- Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
+
+#### BI: Analytics & Reporting (Data Analysis)
+Objective
+Develop SQL-based analytics to deliver detailed insights into:
+
+Customer Behavior
+Product Performance
+Sales Trends
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+For more details, refer to docs/requirements.md.
+
+---
+---
 
 ## © Licence
 
 This project is licensed under the [MIT License](https://github.com/charlespughtech/sql-data-warehouse-project/blob/main/LICENSE). You are free to use, modify, and share this project with proper attribution.
 
+---
 ---
 
 ## 📩 Contact

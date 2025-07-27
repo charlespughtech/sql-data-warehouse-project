@@ -36,7 +36,7 @@ Sources (.csv) → Bronze Layer → Silver Layer → Gold Layer → Consumption 
 
 ---
 
-## 📩 Contact
+## ⌯⌲ Contact
 
 For any inquiries or further information, please contact:
 

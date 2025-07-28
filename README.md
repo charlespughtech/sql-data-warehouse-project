@@ -95,7 +95,7 @@ sql-data-warehouse-project/
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
 │   ├── data_flow.png                   # .png file for the data flow diagram
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data

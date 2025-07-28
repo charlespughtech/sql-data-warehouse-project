@@ -1,3 +1,10 @@
+USE [DataWarehouse]
+GO
+/****** Object:  StoredProcedure [bronze].[load_bronze]    Script Date: 28/07/2025 18:10:02 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
 /*
 ===============================================================================
 Stored Procedure: Load Bronze Layer (Source -> Bronze)
@@ -19,7 +26,7 @@ Usage Example:
 
 
 
-CREATE OR ALTER PROCEDURE bronze.load_bronze AS
+ALTER   PROCEDURE [bronze].[load_bronze] AS
 BEGIN
 	DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @batch_end_time DATETIME;
 	BEGIN TRY
@@ -80,6 +87,7 @@ BEGIN
 			FIELDTERMINATOR = ',',
 			TABLOCK
 		);
+		SET @end_time = GETDATE();
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
 		PRINT '------------------------------';
 
@@ -101,6 +109,7 @@ BEGIN
 			FIELDTERMINATOR = ',',
 			TABLOCK
 		);
+		SET @end_time = GETDATE();
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
 		PRINT '------------------------------';
 
@@ -117,6 +126,7 @@ BEGIN
 			FIELDTERMINATOR = ',',
 			TABLOCK
 		);
+		SET @end_time = GETDATE();
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
 		PRINT '------------------------------';
 
@@ -133,6 +143,7 @@ BEGIN
 			FIELDTERMINATOR = ',',
 			TABLOCK
 		);
+		SET @end_time = GETDATE();
 		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';
 		PRINT '------------------------------';
 

@@ -150,7 +150,8 @@ BEGIN
 		PRINT 'Error Message ' + ERROR_MESSAGE();
 		PRINT '-----------------------------------------';
 		PRINT 'Error Number ' + CAST(ERROR_NUMBER() AS NVARCHAR);
-		PRINT 'Error Number ' + CAST(ERROR_STATE() AS NVARCHAR);
+		PRINT '-----------------------------------------';
+		PRINT 'Error State ' + CAST(ERROR_STATE() AS NVARCHAR);
 		PRINT '=========================================';
 	END CATCH
 END

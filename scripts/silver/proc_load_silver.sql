@@ -14,7 +14,7 @@ Parameters:
 	  This stored procedure does not accept any parameters or return any values.
 
 Usage Example:
-    EXEC silver.load_silver;
+    EXEC Silver.load_silver;
 ===============================================================================
 */
 
@@ -69,7 +69,7 @@ BEGIN
 			WHERE cst_id IS NOT NULL
 		) t
 		WHERE flag_last = 1; -- Select the most recent record per customer
-		SET @end_time = GETDATE();
+	SET @end_time = GETDATE();
         PRINT '>> Load Duration: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
         PRINT '>> -------------';
 

@@ -25,7 +25,7 @@ Welcome to my **Data Warehouse and Analytics Project** repository!
 - Designed as a poitfolio project, it highlights industry best-practices in data engineering and analytics.
 
 **This project involves:**
-- Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+- Data Architecture: Designing a modern data warehouse using a medallion architecture: bronze, silver, and gold layers.
 - ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
 - Data Modeling: Developing fact and dimension tables optimized for analytical queries.
 - Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.

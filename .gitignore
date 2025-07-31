@@ -1,0 +1,30 @@
+# Ignore system-specific files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Ignore local configuration files
+*.env
+
+# Ignore SQL Server-related files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore temporary or backup files
+*.log
+*.bak
+*.tmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.vs/
+*.sln
+*.suo
+*.user
+
+# Ignore exported data or diagrams
+*.csv
+*.png
+*.pdf

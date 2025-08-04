@@ -3,7 +3,7 @@
 
 ---
 
-#### Project Repository URL: [charlespughtech/sql-data-warehouse-project](https://github.com/charlespughtech/sql-data-warehouse-project) 
+#### Project Repository URL: [charlespughtech/sql_data_warehouse_project](https://github.com/charlespughtech/sql_data-warehouse_project) 
 
 ---
 
@@ -50,7 +50,7 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 ---
 
 ## 🛠️ Important Links & Tools (Free):
-- [**Datasets**](https://github.com/charlespughtech/sql-data-warehouse-project/tree/main/datasets): Access to the project dataset (csv files).
+- [**Datasets**](https://github.com/charlespughtech/sql_data_warehouse_project/tree/main/datasets): Access to the project dataset (csv files).
 - [**SQL Server Express**](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Lightweight server for hosting your SQL database.
 - [**SQL Server Management Studio (SSMS)**](https://learn.microsoft.com/en-us/ssms/install/install?view=sql-server-ver16): GUI for managing and interacting with databases.
 - [**Git Repository**](https://github.com): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
@@ -91,7 +91,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ## 🗃️ Repository Structure
 
 ```bash
-sql-data-warehouse-project/
+sql_data_warehouse_project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
@@ -122,7 +122,7 @@ sql-data-warehouse-project/
 
 ## © Licence
 
-This project is licensed under the [MIT License](https://github.com/charlespughtech/sql-data-warehouse-project/blob/main/LICENSE). You are free to use, modify, and share this project with proper attribution.
+This project is licensed under the [MIT License](https://github.com/charlespughtech/sql_data_warehouse_project/blob/main/LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 ---
 

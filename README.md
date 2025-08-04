@@ -20,10 +20,18 @@ Welcome to my **Data Warehouse and Analytics Project** repository!
 ## 📖 Project Overview
 
 **This project involves:**
-- Data Architecture: Designing a modern data warehouse using a medallion architecture: bronze, silver, and gold layers.
-- ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-- Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-- Analytics & Reporting: Creating SQL-based reports for actionable insights.
+- 🏗️ Data Architecture: Designing a modern data warehouse using a medallion architecture: bronze, silver, and gold layers. The bronze layer contains unchanged data tables from the csv files, the silver layer contains cleansed and standardised data also in table form, the gold layer contains business ready data in the form of VIEWs.
+
+- 🔄 ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse. I utilised stored procedures for the ETL process to ensure that a small amount of code could be run to Extract, Transform and Load the data from raw csv files right up to the gold layer. This ensures ease, accuracy and speed of ETL processing.
+
+- 📚 Data Integration: Using JOINs, data cleansing and data integration techniques to combine relevant datasets into easier to singular datasets.
+
+- 🧹 Data Cleansing:
+Handling NULLs, standardisation/normalisation, utilising TRIM to remove whitespace, using CASE WHEN statements to standardise data.
+
+- 🗃️ Data Modeling: Utilised a star schema for developing fact and dimension tables optimized for analytical queries. The dimension tables include customer and product details, the fact table includes sales order data.
+
+- 🗺 Data Catalogue: The data catalogue can be used to help navigate the data warehouse. It enables end-user understanding of the structure, relationships and types of data.
 
 ---
 

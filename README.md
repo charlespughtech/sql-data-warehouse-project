@@ -61,6 +61,8 @@ Sources (.csv) → Bronze Layer (tables) → Silver Layer (tables) → Gold Laye
 ---
 
 ## 📋 Project Requirements
+**This project:**
+[charlespughtech/sql_data_warehouse_project](https://github.com/charlespughtech/sql_data_warehouse_project)
 ### Building the Data Warehouse (Data Engineering)
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
@@ -73,6 +75,9 @@ Specifications:
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 
+**The follow-up project:** 
+
+[https://github.com/charlespughtech/sql_exploratory_data_analysis_project](https://github.com/charlespughtech/sql_exploratory_data_analysis_project)
 ### BI: Analytics & Reporting (Data Analysis)
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:

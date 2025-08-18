@@ -54,12 +54,12 @@ BEGIN
 				WHEN UPPER(TRIM(cst_marital_status)) = 'S' THEN 'Single'
 				WHEN UPPER(TRIM(cst_marital_status)) = 'M' THEN 'Married'
 				ELSE 'n/a'
-			END AS cst_marital_status, -- Normalize marital status values to readable format
+			END AS cst_marital_status, -- Normalise marital status values to readable format
 			CASE 
 				WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'Female'
 				WHEN UPPER(TRIM(cst_gndr)) = 'M' THEN 'Male'
 				ELSE 'n/a'
-			END AS cst_gndr, -- Normalize gender values to readable format
+			END AS cst_gndr, -- Normalise gender values to readable format
 			cst_create_date
 		FROM (
 			SELECT
@@ -182,7 +182,7 @@ BEGIN
 				WHEN UPPER(TRIM(gen)) IN ('F', 'FEMALE') THEN 'Female'
 				WHEN UPPER(TRIM(gen)) IN ('M', 'MALE') THEN 'Male'
 				ELSE 'n/a'
-			END AS gen -- Normalize gender values and handle unknown cases
+			END AS gen -- Normalise gender values and handle unknown cases
 		FROM bronze.erp_cust_az12;
 	    SET @end_time = GETDATE();
         PRINT '>> Load Duration: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
@@ -208,7 +208,7 @@ BEGIN
 				WHEN TRIM(cntry) IN ('US', 'USA') THEN 'United States'
 				WHEN TRIM(cntry) = '' OR cntry IS NULL THEN 'n/a'
 				ELSE TRIM(cntry)
-			END AS cntry -- Normalize and Handle missing or blank country codes
+			END AS cntry -- Normalise and Handle missing or blank country codes
 		FROM bronze.erp_loc_a101;
 	    SET @end_time = GETDATE();
         PRINT '>> Load Duration: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
@@ -251,3 +251,4 @@ BEGIN
 		PRINT '=========================================='
 	END CATCH
 END
+
